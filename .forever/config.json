@@ -1,0 +1,17 @@
+{
+	"root": "/home/sadmin/.forever",
+	"pidPath": "/home/sadmin/.forever/pids",
+	"sockPath": "/home/sadmin/.forever/sock",
+	"loglength": 100,
+	"logstream": false,
+	"columns": [
+		"uid",
+		"command",
+		"script",
+		"forever",
+		"pid",
+		"id",
+		"logfile",
+		"uptime"
+	]
+}

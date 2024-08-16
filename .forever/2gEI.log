@@ -1,0 +1,100 @@
+(node:1665932) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+Wed, 22 Jun 2022 15:16:03 GMT node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. at node:internal/modules/cjs/loader:1105:14
+📀 Starting initial loading...
+/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:317
+            const error = new Errors_1.DatabaseError("Can't Load Database", 1, err);
+                          ^
+
+DatabaseError: Can't Load Database
+    at JsonDB.load (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:317:27)
+    at JsonDB.retrieveData (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:55:14)
+    at JsonDB.getParentData (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:120:53)
+    at JsonDB.push (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:245:29)
+    at /home/sadmin/tnvd-monitor-bot/monitor.js:63:12
+    at Array.forEach (<anonymous>)
+    at fetchInitialData (/home/sadmin/tnvd-monitor-bot/monitor.js:47:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Server.<anonymous> (/home/sadmin/tnvd-monitor-bot/monitor.js:110:3) {
+  inner: SyntaxError: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at JsonDB.load (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:313:30)
+      at JsonDB.retrieveData (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:55:14)
+      at JsonDB.getParentData (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:120:53)
+      at JsonDB.push (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:245:29)
+      at /home/sadmin/tnvd-monitor-bot/monitor.js:63:12
+      at Array.forEach (<anonymous>)
+      at fetchInitialData (/home/sadmin/tnvd-monitor-bot/monitor.js:47:21)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async Server.<anonymous> (/home/sadmin/tnvd-monitor-bot/monitor.js:110:3),
+  id: 1
+}
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #1"}
+Wed, 22 Jun 2022 15:16:04 GMT node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. at node:internal/modules/cjs/loader:1105:14
+📀 Starting initial loading...
+/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:317
+            const error = new Errors_1.DatabaseError("Can't Load Database", 1, err);
+                          ^
+
+DatabaseError: Can't Load Database
+    at JsonDB.load (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:317:27)
+    at JsonDB.retrieveData (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:55:14)
+    at JsonDB.getParentData (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:120:53)
+    at JsonDB.push (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:245:29)
+    at /home/sadmin/tnvd-monitor-bot/monitor.js:63:12
+    at Array.forEach (<anonymous>)
+    at fetchInitialData (/home/sadmin/tnvd-monitor-bot/monitor.js:47:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Server.<anonymous> (/home/sadmin/tnvd-monitor-bot/monitor.js:110:3) {
+  inner: SyntaxError: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at JsonDB.load (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:313:30)
+      at JsonDB.retrieveData (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:55:14)
+      at JsonDB.getParentData (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:120:53)
+      at JsonDB.push (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:245:29)
+      at /home/sadmin/tnvd-monitor-bot/monitor.js:63:12
+      at Array.forEach (<anonymous>)
+      at fetchInitialData (/home/sadmin/tnvd-monitor-bot/monitor.js:47:21)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async Server.<anonymous> (/home/sadmin/tnvd-monitor-bot/monitor.js:110:3),
+  id: 1
+}
+{"level":"error","message":"Forever detected script exited with code: 1"}
+{"level":"error","message":"Script restart attempt #2"}
+Wed, 22 Jun 2022 15:16:06 GMT node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. at node:internal/modules/cjs/loader:1105:14
+📀 Starting initial loading...
+/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:317
+            const error = new Errors_1.DatabaseError("Can't Load Database", 1, err);
+                          ^
+
+DatabaseError: Can't Load Database
+    at JsonDB.load (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:317:27)
+    at JsonDB.retrieveData (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:55:14)
+    at JsonDB.getParentData (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:120:53)
+    at JsonDB.push (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:245:29)
+    at /home/sadmin/tnvd-monitor-bot/monitor.js:63:12
+    at Array.forEach (<anonymous>)
+    at fetchInitialData (/home/sadmin/tnvd-monitor-bot/monitor.js:47:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Server.<anonymous> (/home/sadmin/tnvd-monitor-bot/monitor.js:110:3) {
+  inner: SyntaxError: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at JsonDB.load (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:313:30)
+      at JsonDB.retrieveData (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:55:14)
+      at JsonDB.getParentData (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:120:53)
+      at JsonDB.push (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:245:29)
+      at /home/sadmin/tnvd-monitor-bot/monitor.js:63:12
+      at Array.forEach (<anonymous>)
+      at fetchInitialData (/home/sadmin/tnvd-monitor-bot/monitor.js:47:21)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async Server.<anonymous> (/home/sadmin/tnvd-monitor-bot/monitor.js:110:3),
+  id: 1
+}
+{"level":"error","message":"Forever detected script exited with code: 1"}

@@ -1,0 +1,27 @@
+(node:1845752) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+Tue, 28 Jun 2022 16:30:25 GMT node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. at node:internal/modules/cjs/loader:1105:14
+/home/sadmin/tnvd-monitor-bot/node_modules/mkdirp/lib/mkdirp-native.js:35
+      throw er
+      ^
+
+Error: EACCES: permission denied, mkdir '/Users/tukerty/Dev/tnvd-server'
+    at Object.mkdirSync (node:fs:1349:3)
+    at mkdirpNativeSync (/home/sadmin/tnvd-monitor-bot/node_modules/mkdirp/lib/mkdirp-native.js:29:10)
+    at Function.mkdirpSync [as sync] (/home/sadmin/tnvd-monitor-bot/node_modules/mkdirp/index.js:21:7)
+    at new JsonDB (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:33:20)
+    at Object.<anonymous> (/home/sadmin/tnvd-monitor-bot/monitor.js:25:12)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  errno: -13,
+  syscall: 'mkdir',
+  code: 'EACCES',
+  path: '/Users/tukerty/Dev/tnvd-server'
+}
+{"level":"error","message":"Forever detected script exited with code: 1"}

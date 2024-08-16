@@ -1,0 +1,39 @@
+(node:1785743) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+Tue, 28 Jun 2022 08:53:18 GMT node-telegram-bot-api deprecated Automatic enabling of cancellation of promises is deprecated.
+In the future, you will have to enable it yourself.
+See https://github.com/yagop/node-telegram-bot-api/issues/319. at node:internal/modules/cjs/loader:1105:14
+/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:362
+            throw error;
+            ^
+
+DatabaseError: Can't save the database
+    at JsonDB.save (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:361:27)
+    at new JsonDB (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:34:18)
+    at Object.<anonymous> (/home/sadmin/tnvd-monitor-bot/monitor.js:18:12)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  inner: Error: EACCES: permission denied, open 'buffer_data.json'
+      at Object.openSync (node:fs:585:3)
+      at Object.writeFileSync (node:fs:2170:35)
+      at JsonDB.save (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:357:20)
+      at new JsonDB (/home/sadmin/tnvd-monitor-bot/node_modules/node-json-db/dist/JsonDB.js:34:18)
+      at Object.<anonymous> (/home/sadmin/tnvd-monitor-bot/monitor.js:18:12)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+      at node:internal/main/run_main_module:17:47 {
+    errno: -13,
+    syscall: 'open',
+    code: 'EACCES',
+    path: 'buffer_data.json'
+  },
+  id: 2
+}
+{"level":"error","message":"Forever detected script exited with code: 1"}
